@@ -10,5 +10,6 @@ def show_image_from_url(url):
         image.show()
     else:
         print(f"Failed to fetch image from {url}. Status code: {response.status_code}")
-imageurl = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+
+imageurl = input("Enter image url: ")
 show_image_from_url(imageurl)
